@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.roof-floor {
+    background-color: rgb(50, 50, 50);
+    width: 100%;
+    height: 15vh;
+}
+
+.wall {
+    height: 70vh;
+    background-image: url(./../img/wall.jpg);
+    background-position: center;
+}
+
+.container { 
+    max-width: 1140px;
+    height: 70vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.back-header {
+    background-color: rgb(185, 122, 87);
+    border: 4px black outset;
+    margin-bottom: 11px;
+    margin-top: 15px;
+}
+
+.header-door {
+    margin: 3px;
+    text-align: center;
+}
+
+.img-door {
+    display: block;
+    height: 100%;
+    margin-bottom: 0;
+}
+
+.link {
+    display: block;
+    height: 100%;
+    padding-bottom: 0;
+}
+
+.containerfordoors {
+    display: flex;
+    height: 70vh;
+    justify-content: center;
+    align-content: center;   
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.field1 {
+    height: 50px;
+    font-size: 18px;
+    background-color: black;
+    color: white;
+}
+
+.field2 {
+    height: 40px;
+    font-size: 18px;
+    background-color: black;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.buttom {
+    display: inline-block;
+    height: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    border: 3px solid white;
+    border-radius: 10px;
+    background-color: rgb(14, 103, 30);
+
+    font-weight: 700;
+    font-size: 16px;   
+    line-height: 44px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 3px;
+    color: #FFFFFF;
+}
